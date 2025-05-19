@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #aa7d80;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #a03333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('https://via.placeholder.com/1200x400?text=Medical+Hero+Image') no-repeat center center/cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .hero .btn {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #ab4646;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .services {
+    background-color: #af6d6d;
+    padding: 60px 20px;
+  }
+  
+  .services h3 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #c63e44;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+  }
+  
+  .contact {
+    background-color: #952330;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #c71d1d;
+    color: rgb(2, 0, 0);
+    text-align: center;
+    padding: 15px;
+  }
+  
